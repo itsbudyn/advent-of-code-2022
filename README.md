@@ -1,5 +1,5 @@
 # advent-of-code-2022
-Repository containing my source code used to obtain answers to the 2022 Edition of Advent of Code 
+Repository containing my Python source code and inputs used to obtain answers to the 2022 Edition of Advent of Code 
 
 Completion:
 |Day|1/2|2/2|Notes|
