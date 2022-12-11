@@ -72,5 +72,5 @@ def visibleTrees(s:str):
             if j>maxScenicScore: maxScenicScore=j
     return maxScenicScore
 
-with open("8.txt","r") as f:
+with open("input/8.txt","r") as f:
     print(visibleTrees(f.read().splitlines()))

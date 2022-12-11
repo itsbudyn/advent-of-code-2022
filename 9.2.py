@@ -62,5 +62,5 @@ def bridge(s:str):
             if j=="T": visited+=1
     return visited
 
-with open("9.txt","r") as f:
+with open("input/9.txt","r") as f:
     print(bridge(f.read().splitlines()))

@@ -1,4 +1,4 @@
-with open("6.txt","r") as f:
+with open("input/6.txt","r") as f:
     buffer=f.read()
 
 cutoff=0

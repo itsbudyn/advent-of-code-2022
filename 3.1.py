@@ -13,5 +13,5 @@ def rucksack(s:str):
                 break
     return sum
 
-with open("3.txt","r") as f:
+with open("input/3.txt","r") as f:
     print(rucksack(f.read().splitlines()))

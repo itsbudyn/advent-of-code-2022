@@ -51,5 +51,5 @@ def visibleTrees(s:str):
     return visibleTrees
 
 
-with open("8.txt","r") as f:
+with open("input/8.txt","r") as f:
     print(visibleTrees(f.read().splitlines()))

@@ -13,5 +13,5 @@ def camp(s:int):
             matches+=1
     return matches
 
-with open("4.txt","r") as f:
+with open("input/4.txt","r") as f:
     print(camp(f.read().splitlines()))

@@ -12,5 +12,5 @@ def elves(calories:str):
     print("WYNIK:",sorted(elves_calories)[-1])
     print("WWNIK 2:",sum(sorted(elves_calories)[-3::]))
 
-with open("1.txt","r") as f:
+with open("input/1.txt","r") as f:
     elves(f.read())

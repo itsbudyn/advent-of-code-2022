@@ -40,5 +40,5 @@ def game(g:str):
                 break
     return score
 
-with open("2.txt","r") as f:
+with open("input/2.txt","r") as f:
     print(game(f.read().splitlines()))

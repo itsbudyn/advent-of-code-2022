@@ -20,5 +20,5 @@ def rucksack(s:str):
         sum_p+=abc.index(i)+1
     return sum_p
 
-with open("3.txt","r") as f:
+with open("input/3.txt","r") as f:
     print(rucksack(f.read().splitlines()))

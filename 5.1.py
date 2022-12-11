@@ -28,5 +28,5 @@ def move(s:str):
     return out
 
 
-with open("5.txt","r") as f:
+with open("input/5.txt","r") as f:
     print(move(f.read().splitlines()))

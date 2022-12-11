@@ -17,5 +17,5 @@ def camp(s:int):
                 break
     return overlaps
 
-with open("4.txt","r") as f:
+with open("input/4.txt","r") as f:
     print(camp(f.read().splitlines()))

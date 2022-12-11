@@ -70,5 +70,5 @@ def browse(s:str):
     for i in sorted(dirsizes):
         if i>= needs-(total-pwd[0].size): return i
 
-with open("7.txt","r") as f:
+with open("input/7.txt","r") as f:
     print(browse(f.read().splitlines()))

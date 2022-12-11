@@ -16,5 +16,5 @@ def execute(s:str):
     return strengths_sum
 
 
-with open("10.txt","r") as f:
+with open("input/10.txt","r") as f:
     print(execute(f.read().splitlines()))

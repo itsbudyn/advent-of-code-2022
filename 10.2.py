@@ -21,7 +21,7 @@ def execute(s:str):
 
     return screen
 
-with open("10.txt","r") as f:
+with open("input/10.txt","r") as f:
     for i in execute(f.read().splitlines()):
         for j in i: print(j,end="\0")
         print("")

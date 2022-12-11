@@ -70,5 +70,5 @@ def browse(s:str):
         if i<100000: dirstodel+=i
     print(dirstodel)
 
-with open("7.txt","r") as f:
+with open("input/7.txt","r") as f:
     browse(f.read().splitlines())
