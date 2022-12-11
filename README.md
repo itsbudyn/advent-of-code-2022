@@ -14,7 +14,7 @@ Completion:
 |8|✅|✅||
 |9|✅|❌|Will probably have to redo most of the code if I want to complete 9.2|
 |10|✅|✅||
-|11|🔜|🔜||
+|11|✅|🔜||
 |12|🔜|🔜||
 |13|🔜|🔜||
 |14|🔜|🔜||
