@@ -15,7 +15,7 @@ Completion:
 |9|✅|❌|Will probably have to redo most of the code if I want to complete 9.2|
 |10|✅|✅||
 |11|✅|🔜||
-|12|⚠️|🔜|Part 1 adds 2 extraneous nodes|
+|12|⚠️|🔜|Part 1 adds 2 extraneous nodes to the solution - will investigate/correct this sometime|
 |13|🔜|🔜||
 |14|🔜|🔜||
 |15|🔜|🔜||
