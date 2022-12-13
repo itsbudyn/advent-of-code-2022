@@ -20,25 +20,25 @@ def path(s):
 
             height=ord(s[curr_y][curr_x])
 
-            if curr_y+1 < len(s) and height + 1 >= ord(s[curr_y+1][curr_x]) and [curr_y+1,curr_x] not in paths[i]: #DOWN
+            if curr_y+1 < len(s) and height + 1 >= ord(s[curr_y+1][curr_x]): #DOWN
                 if height>=ord("y") and s[curr_y+1][curr_x]=="E": return paths[i]
                 if [curr_y+1,curr_x] not in visited:
                     current_paths.append(paths[i]+[[curr_y+1,curr_x]])
                     visited.append([curr_y+1,curr_x])
 
-            if curr_y > 0 and height + 1 >= ord(s[curr_y-1][curr_x]) and [curr_y-1,curr_x] not in paths[i]: #UP
+            if curr_y > 0 and height + 1 >= ord(s[curr_y-1][curr_x]): #UP
                 if height>=ord("y") and s[curr_y-1][curr_x]=="E": return paths[i]
                 if [curr_y-1,curr_x] not in visited:
                     current_paths.append(paths[i]+[[curr_y-1,curr_x]])
                     visited.append([curr_y-1,curr_x])
 
-            if curr_x+1 < len(s[0]) and height + 1 >= ord(s[curr_y][curr_x+1]) and [curr_y,curr_x+1] not in paths[i]: #RIGHT
+            if curr_x+1 < len(s[0]) and height + 1 >= ord(s[curr_y][curr_x+1]): #RIGHT
                 if height>=ord("y") and s[curr_y][curr_x+1]=="E": return paths[i]
                 if [curr_y,curr_x+1] not in visited:
                     current_paths.append(paths[i]+[[curr_y,curr_x+1]])
                     visited.append([curr_y,curr_x+1])
 
-            if curr_x > 0 and height + 1 >= ord(s[curr_y][curr_x-1]) and [curr_y,curr_x-1] not in paths[i]: #LEFT
+            if curr_x > 0 and height + 1 >= ord(s[curr_y][curr_x-1]): #LEFT
                 if height>=ord("y") and s[curr_y][curr_x-1]=="E": return paths[i]
                 if [curr_y,curr_x-1] not in visited:                
                     current_paths.append(paths[i]+[[curr_y,curr_x-1]])
