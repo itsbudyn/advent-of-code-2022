@@ -1,5 +1,10 @@
 # advent-of-code-2022
-Repository containing my Python source code and inputs used to obtain answers to the 2022 Edition of Advent of Code 
+- Repository containing source code and inputs used to obtain answers to the 2022 Edition of Advent of Code. <br>
+- Fully written in Python (3.10 or higher is recommended, as some programs use `match`)
+- All of these have been written by me:
+  - No pasted source code (or any parts of) 
+  - No spoiling the solution.
+  - Only form of help used was searching how to use some library (e.g. re) or something else in Standard Python (like: generating a 2d array with X and Y dimensions) <br>
 
 Completion:
 
