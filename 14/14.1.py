@@ -1,7 +1,6 @@
 import re
 
 def sand(s):
-    height_buffer = 8
     width_buffer  = 1
     widths,heights=[],[]
     for i in s:
@@ -16,7 +15,7 @@ def sand(s):
     heights=sorted(heights)
 
     width  = 1 + width_buffer*2  + widths[-1]  - widths[0]
-    height = 1 + height_buffer*2 + heights[-1] - heights[0]
+    height = 3 + heights[-1]
 
     offset=widths[0]-width_buffer
     pouring_point=500-widths[0]+width_buffer
@@ -57,6 +56,9 @@ def sand(s):
 
         if not in_void: drops+=1
 
+    for i in cave:
+        for j in i: print(j,end="")
+        print()
     return drops
 
 with open("14/14.txt","r") as f:
